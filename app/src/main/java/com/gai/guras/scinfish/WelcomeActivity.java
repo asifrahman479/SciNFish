@@ -14,7 +14,7 @@ public class WelcomeActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(WelcomeActivity.this, LoginActivity.class);
+                Intent intent = new Intent(WelcomeActivity.this, NavBarActivity2.class);
                 startActivity(intent);
                 WelcomeActivity.this.finish();
                 overridePendingTransition(R.transition.fade_in,R.transition.fade_out);

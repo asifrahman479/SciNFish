@@ -16,6 +16,5 @@ public class UserTypeSelectionActivity extends AppCompatActivity {
         radiogroup=(RadioGroup) findViewById(R.id.radioGroupFishSci);
         int selectedId=radiogroup.getCheckedRadioButtonId();
         selected= findViewById(selectedId);
-        Toast.makeText(getBaseContext(),"Welcome "+selected.getText(), Toast.LENGTH_SHORT).show();
     }
 }
